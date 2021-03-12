@@ -17,18 +17,18 @@ VALUES
 
 INSERT INTO "language" ("id", "name", "user_id")
 VALUES
-  (1, 'German', 1);
+  (1, 'Norwegian', 1);
 
 INSERT INTO "word" ("id", "language_id", "original", "translation", "next")
 VALUES
-  (1, 1, 'prost', 'cheers', 2),
-  (2, 1, 'o''zapft is', 'it is tapped', 3),
-  (3, 1, 'ein Bier, bitte', 'a beer, please', 4),
-  (4, 1, 'fass', 'tap', 5),
-  (5, 1, 'noch mal', 'another', 6),
-  (6, 1, 'zum wohl', 'to your health', 7),
-  (7, 1, 'ich lade euch ein', 'this round is on me', 8),
-  (8, 1, 'das bierzelt', 'beer tent', null);
+  (1, 1, 'jubel', 'cheers', 2),
+  (2, 1, 'det blir tappeta be', 'it is tapped', 3),
+  (3, 1, 'en øl takk', 'a beer, please', 4),
+  (4, 1, 'trykk', 'tap', 5),
+  (5, 1, 'en annen', 'another', 6),
+  (6, 1, 'til din helse', 'to your health', 7),
+  (7, 1, 'hvil i fred', 'rest in peace', 8),
+  (8, 1, 'hvor er nærmeste mjødhall', 'where is the nearest mead hall', null);
 
 UPDATE "language" SET head = 1 WHERE id = 1;
 
